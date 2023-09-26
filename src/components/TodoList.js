@@ -80,7 +80,7 @@ const TodoList = ({ tasks }) => {
     <>
       <div className="todo-list-header">
         <form onSubmit={createTask} className='task-input-container'>  <input placeholder="Add task todo..." type="text" name="title" onChange={handleInput} value={title} />
-          <button type="submit">Create Task</button>
+          <button type="submit">Create Tasks</button>
         </form>
         <div className='task-input-container'>
           <button className="btn btn-primary mt-2" onClick={() => setModal(true)} >Create Detailed Task</button>
